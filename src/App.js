@@ -51,7 +51,6 @@ class App extends Component {
                   title={crew.title} 
                   location={crew.location} />
             })}
-            
           </section>
         </main>
       </div>    
