@@ -1,33 +1,25 @@
 import React, { Component } from 'react';
-import classNames from 'classnames';
+import FilterButton from './FilterButton';
 
 class FilterCrews extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      filterAll: true,
-      filterMel: false,
-      filterSyd: false
+      activeItem: 'all'
     }
-    this._toggleFilterActive = this._toggleFilterActive.bind(this);
-
+    this._handleItemClick = this._handleItemClick.bind(this);
   }
 
-_toggleFilterActive() {
-  this.setState(prevState => ({
-    filterAll: !prevState.filterAll,
-    filterMel: !prevState.filterMel,
-    filterSyd: !prevState.filterSyd
-  }))
-}
-
+  _handleItemClick = (e, name ) => this.setState({ activeItem: name })
 
   render() {
+    const { activeItem } = this.state;
+
     return (
       <ul className="filter-member">
-        <li><button onClick={this._toggleFilterActive} className={classNames("filter-member__option", {"active": this.state.filterAll})} data-filtermember>All</button></li>
-        <li><button onClick={this._toggleFilterActive} className={classNames("filter-member__option", {"active": this.state.filterMel})} data-filtermember="melbourne-active">Melbourne</button></li>
-        <li><button onClick={this._toggleFilterActive} className={classNames("filter-member__option", {"active": this.state.filterSyd})} data-filtermember="sydney-active">Sydney</button></li>
+        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'all'} name='all' />
+        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'melbourne'} name='melbourne' />
+        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'sydney'} name='sydney' />
       </ul>
     )
   }
