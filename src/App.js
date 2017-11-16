@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import CrewCard from './components/CrewCard';
+import FilterCrews from './components/FilterCrews';
 
 const crews = [
   { 
@@ -38,11 +39,7 @@ class App extends Component {
           AI FED crews
         </h2>
         <main>
-          <ul className="filter-member">
-            <li><button className="filter-member__option active" data-filtermember>All</button></li>
-            <li><button className="filter-member__option" data-filtermember="melbourne-active">Melbourne</button></li>
-            <li><button className="filter-member__option" data-filtermember="sydney-active">Sydney</button></li>
-          </ul>
+          <FilterCrews />
           <section className="grid-container" data-filteractive>
             {crews.map(crew => {
               return <CrewCard
