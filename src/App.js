@@ -16,7 +16,7 @@ class App extends Component {
           </ul>
           <section className="grid-container" data-filteractive>
             <div className="box crew-photo i1" data-track="melbourne">
-              <img src="img/luke.peary.jpg" alt="" />
+              <img src={require('./img/luke.peary.jpg')} alt="" />
             </div>
             <div className="box profile-hover c1" data-track="melbourne">
               <div className="crew-profile front">
