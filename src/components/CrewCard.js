@@ -1,6 +1,7 @@
 import React from 'react';
 
-const CrewCard = () => {
+const CrewCard = (crewDetails) => {
+  console.log("crewCard : "+ crewDetails.name);
   return (
     <div className="grid-container">
       <div className="box crew-photo i1" data-track="melbourne">
@@ -8,9 +9,9 @@ const CrewCard = () => {
       </div>
       <div className="box profile-hover c1" data-track="melbourne">
         <div className="crew-profile front">
-          <h1 className="crew-profile__name">Sujan Kim</h1>
-          <span className="crew-profile__title">Front End Development Specialist</span>
-          <p className="crew-profile__area">Melbourne</p>
+          <h1 className="crew-profile__name">{crewDetails.name}</h1>
+          <span className="crew-profile__title">{crewDetails.title}</span>
+          <p className="crew-profile__area">{crewDetails.location}</p>
         </div>
         <div className="crew-profile back">
           <h1 className="crew-profile__name">Guess who?</h1>

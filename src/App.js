@@ -2,6 +2,22 @@ import React, { Component } from 'react';
 import './App.css';
 import CrewCard from './components/CrewCard';
 
+const crewDetails = [
+  { 
+    id: 1, 
+    name: "Sujan Kim",
+    title: "Frontend Development Specialist",
+    location: "Melbourne"
+  },
+  { 
+    id: 2, 
+    name: "Harry Potter",
+    title: "Frontend Development Specialist",
+    location: "Melbourne"
+  }
+];
+  
+
 class App extends Component {
   render() {
     return (
@@ -16,7 +32,10 @@ class App extends Component {
             <li><button className="filter-member__option" data-filtermember="sydney-active">Sydney</button></li>
           </ul>
           <section data-filteractive>
-            <CrewCard />
+            <CrewCard 
+              name={crewDetails[0].name} 
+              title={crewDetails[0].title} 
+              location={crewDetails[0].location} />
           </section>
         </main>
       </div>    
