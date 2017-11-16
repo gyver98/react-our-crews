@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import CrewCard from './components/CrewCard';
 
-const crewDetails = [
+const crews = [
   { 
     id: 1, 
     name: "Sujan Kim",
@@ -31,11 +31,14 @@ class App extends Component {
             <li><button className="filter-member__option" data-filtermember="melbourne-active">Melbourne</button></li>
             <li><button className="filter-member__option" data-filtermember="sydney-active">Sydney</button></li>
           </ul>
-          <section data-filteractive>
-            <CrewCard 
-              name={crewDetails[0].name} 
-              title={crewDetails[0].title} 
-              location={crewDetails[0].location} />
+          <section className="grid-container" data-filteractive>
+            {crews.map(crew => {
+              return <CrewCard 
+                  name={crew.name} 
+                  title={crew.title} 
+                  location={crew.location} />
+            })}
+            
           </section>
         </main>
       </div>    
