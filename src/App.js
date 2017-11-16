@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import CrewCard from './components/CrewCard';
 import FilterCrews from './components/FilterCrews';
+import DuotoneFilter from './components/DuotoneFilter';
 
 const crews = [
   { 
@@ -48,13 +49,7 @@ class App extends Component {
 
   render() {
     return ([
-      <svg aria-hidden="true" style={{width:0, height:0, position: 'absolute', zIndex: -2}}>
-      <defs>
-        <filter color-interpolation-filters="sRGB" id="duotone">
-          <feColorMatrix type="matrix" values="0.95 0 0 0 0.05 0.65 0 0 0 0.15 0.15 0 0 0 0.50 0 0 0 1 0"></feColorMatrix>
-        </filter>
-      </defs>
-    </svg>,
+      <DuotoneFilter />,
       <div className="contents">
         <h2 className="pagetitle">
           AI FED crews
