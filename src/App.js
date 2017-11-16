@@ -14,6 +14,18 @@ const crews = [
     name: "Harry Potter",
     title: "Frontend Development Specialist",
     location: "Melbourne"
+  },
+  { 
+    id: 3, 
+    name: "Nick Nolan",
+    title: "Frontend Development Specialist",
+    location: "Melbourne"
+  },
+  { 
+    id: 4, 
+    name: "Katy Ferry",
+    title: "Frontend Development Specialist",
+    location: "Melbourne"
   }
 ];
   
@@ -33,7 +45,8 @@ class App extends Component {
           </ul>
           <section className="grid-container" data-filteractive>
             {crews.map(crew => {
-              return <CrewCard 
+              return <CrewCard
+                  id={crew.id} 
                   name={crew.name} 
                   title={crew.title} 
                   location={crew.location} />

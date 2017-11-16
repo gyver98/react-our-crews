@@ -1,12 +1,13 @@
 import React from 'react';
 
+
 const CrewCard = (crewDetails) => {
   console.log("crewCard : "+ crewDetails.name);
   return ([
-      <div className="box crew-photo i1" data-track="melbourne">
+      <div className={`box crew-photo i${crewDetails.id}`} data-track="melbourne">
         <img src={require('../img/asset 2.jpeg')} alt="" />
       </div>,
-      <div className="box profile-hover c1" data-track="melbourne">
+      <div className={`box profile-hover c${crewDetails.id}`} data-track="melbourne">
         <div className="crew-profile front">
           <h1 className="crew-profile__name">{crewDetails.name}</h1>
           <span className="crew-profile__title">{crewDetails.title}</span>
