@@ -1,25 +1,33 @@
 import React, { Component } from 'react';
 import FilterButton from './FilterButton';
+// var t = this.getAttribute("data-filtermember");
+// e.setAttribute("data-filterActive", t),
 
 class FilterCrews extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeItem: 'all'
+      activeItem: 'all',
+      filterMember: ''
     }
     this._handleItemClick = this._handleItemClick.bind(this);
   }
 
-  _handleItemClick = (e, name ) => this.setState({ activeItem: name })
+  _handleItemClick = ( name, filterMember ) => {
+    this.setState({ activeItem: name, filterMember: filterMember });
+    this.props.setFilterActive(filterMember);
+  }
+    
+ 
 
   render() {
     const { activeItem } = this.state;
 
     return (
       <ul className="filter-member">
-        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'all'} name='all' />
-        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'melbourne'} name='melbourne' />
-        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'sydney'} name='sydney' />
+        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'all'} name='all' filterMember='' />
+        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'melbourne'} name='melbourne' filterMember='melbourne-active'/>
+        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'sydney'} name='sydney' filterMember='sydney-active'/>
       </ul>
     )
   }
