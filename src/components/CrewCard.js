@@ -34,7 +34,7 @@ class CrewCard extends Component {
   render() {
     return ([
         <div className={`box crew-photo i${this.props.id}`} data-track="melbourne">
-          <img src={require('../img/asset 2.jpeg')} alt="" />
+          <img src={require(`../img/asset ${this.props.id + 1}.jpeg`)} alt="" />
         </div>,
         <div 
           onMouseEnter={this._addFlipClass} 
