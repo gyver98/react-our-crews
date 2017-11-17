@@ -43,6 +43,14 @@ export function getCrews() {
     },
     { 
       id: 6, 
+      name: "Edward Blake",
+      image: "edward.blake",
+      title: "Service & Interaction Design",
+      segment: "Design",
+      group: "design"
+    },
+    { 
+      id: 7, 
       name: "David Be",
       image: "david.be",
       title: "Program & Project Mgmt Specialist",
@@ -50,10 +58,50 @@ export function getCrews() {
       group: "dev"
     },
     { 
-      id: 7, 
+      id: 8, 
       name: "Ewan Horsburgh",
       image: "ewan.horsburgh",
       title: "Front End Development Associate Mgr",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 9, 
+      name: "Belinda Bong",
+      image: "belinda.bong",
+      title: "Program & Project Mgmt Associate Manager",
+      segment: "Program, Project & Service Mgmt",
+      group: "dev"
+    },
+    { 
+      id: 10, 
+      name: "Martin Brown",
+      image: "martin.m.brown",
+      title: "Design Leadership",
+      segment: "Design",
+      group: "design"
+    },
+    { 
+      id: 11, 
+      name: "Bekky Bush",
+      image: "rebekka.bush",
+      title: "Design Leadership",
+      segment: "Design",
+      group: "design"
+    },
+    { 
+      id: 12, 
+      name: "Harry Cahyadi",
+      image: "harry.cahyadi",
+      title: "Digital Technology Developer Specialist",
+      segment: "Software Engineering",
+      group: "dev"
+    },
+    { 
+      id: 13, 
+      name: "Breno Pittoli",
+      image: "breno.pittoli",
+      title: "Front End Development Specialist",
       segment: "Business & Technology Integration",
       group: "fed"
     },
