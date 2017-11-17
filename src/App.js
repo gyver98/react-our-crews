@@ -30,11 +30,6 @@ const crews = [
     location: "sydney"
   }
 ];
-  
-const HeroPattern = ({ pttrn, children }) =>
-  <div className={pttrn}>
-    {children}
-  </div>
 
 class App extends Component {
 
@@ -52,10 +47,8 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <div>
-        <HeroPattern pttrn={'topography-pattern'}>
-      <DuotoneFilter />
+    return ([
+      <DuotoneFilter />,
       <div className="contents">
         <h2 className="pagetitle">
           AI FED crews
@@ -72,10 +65,8 @@ class App extends Component {
             })}
           </section>
         </main>
-      </div>
-      </HeroPattern>
       </div>    
-    );
+    ]);
   }
 }
 
