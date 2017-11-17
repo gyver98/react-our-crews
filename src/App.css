@@ -130,7 +130,9 @@ grid style
   grid-template-areas: 
   "i1 c1" "c2 i2" "i3 c3" "c4 i4" "i5 c5" "c6 i6"
   "i7 c7" "c8 i8" "i9 c9" "c10 i10" "i11 c11" "c12 i12"
-  "i13 c13" "c14 i14" "i15 c15";
+  "i13 c13" "c14 i14" "i15 c15" "c16 i16" "i17 c17" "c18 i18" 
+  "i19 c19" "c20 i20" "i21 c21" "c22 i22" "i23 c23" "c24 i24" 
+  "i25 c25" "c26 i26";
   grid-gap: 20px 0;
 }
 

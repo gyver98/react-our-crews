@@ -203,10 +203,10 @@ export function getCrews() {
     },
     { 
       id: 26, 
-      name: "Sarath Krishnan",
-      image: "sarath.krishnan",
-      title: "Digital Business Integration Sr Manager",
-      segment: "Business & Technology Integration",
+      name: "John Wesley",
+      image: "john.charles.wesley",
+      title: "Digital Technology Developer Assoc Mgr",
+      segment: "Software Engineering",
       group: "dev"
     },
   ]
