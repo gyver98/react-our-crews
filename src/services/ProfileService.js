@@ -19,6 +19,14 @@ export function getCrews() {
     },
     { 
       id: 3, 
+      name: "Aurelien Boucher",
+      image: "aurelien.boucher",
+      title: "Business Design",
+      segment: "Design",
+      group: "design"
+    },
+    { 
+      id: 4, 
       name: "Suhel Anwar",
       image: "suhel.anwar",
       title: "Digital Business Integration Manager",
@@ -26,7 +34,7 @@ export function getCrews() {
       group: "dev"
     },
     { 
-      id: 4, 
+      id: 5, 
       name: "Samuel Hemphill",
       image: "samuel.hemphill",
       title: "Frontend Development Specialist",
@@ -34,12 +42,20 @@ export function getCrews() {
       group: "fed"
     },
     { 
-      id: 5, 
+      id: 6, 
       name: "David Be",
       image: "david.be",
       title: "Program & Project Mgmt Specialist",
       segment: "Program, Project & Service Mgmt",
       group: "dev"
+    },
+    { 
+      id: 7, 
+      name: "Ewan Horsburgh",
+      image: "ewan.horsburgh",
+      title: "Front End Development Associate Mgr",
+      segment: "Business & Technology Integration",
+      group: "fed"
     },
   ]
 )

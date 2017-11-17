@@ -98,7 +98,23 @@ main {
   opacity: .1;
   pointer-events: none;
 }
+.grid-container[data-filterActive="fed-active"] [data-track="design"] {
+  opacity: .1;
+  pointer-events: none;
+}
 .grid-container[data-filterActive="dev-active"] [data-track="fed"] {
+  opacity: .1;
+  pointer-events: none;
+}
+.grid-container[data-filterActive="dev-active"] [data-track="design"] {
+  opacity: .1;
+  pointer-events: none;
+}
+.grid-container[data-filterActive="design-active"] [data-track="fed"] {
+  opacity: .1;
+  pointer-events: none;
+}
+.grid-container[data-filterActive="design-active"] [data-track="dev"] {
   opacity: .1;
   pointer-events: none;
 }

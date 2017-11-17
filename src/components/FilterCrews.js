@@ -28,6 +28,7 @@ class FilterCrews extends Component {
         <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'all'} name='all' filterMember='' />
         <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'fed'} name='fed' filterMember='fed-active'/>
         <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'dev'} name='dev' filterMember='dev-active'/>
+        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'design'} name='design' filterMember='design-active'/>
       </ul>
     )
   }
