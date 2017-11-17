@@ -32,7 +32,15 @@ export function getCrews() {
       title: "Frontend Development Specialist",
       segment: "Business & Technology Integration",
       group: "fed"
-    }
+    },
+    { 
+      id: 5, 
+      name: "David Be",
+      image: "david.be",
+      title: "Program & Project Mgmt Specialist",
+      segment: "Program, Project & Service Mgmt",
+      group: "dev"
+    },
   ]
 )
 }
