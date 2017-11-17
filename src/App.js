@@ -3,33 +3,9 @@ import './App.css';
 import CrewCard from './components/CrewCard';
 import FilterCrews from './components/FilterCrews';
 import DuotoneFilter from './components/DuotoneFilter';
+import { getCrews } from './services/ProfileService';
 
-const crews = [
-  { 
-    id: 1, 
-    name: "Sujan Kim",
-    title: "Frontend Development Specialist",
-    location: "melbourne"
-  },
-  { 
-    id: 2, 
-    name: "Harry Potter",
-    title: "Frontend Development Specialist",
-    location: "sydney"
-  },
-  { 
-    id: 3, 
-    name: "Nick Nolan",
-    title: "Frontend Development Specialist",
-    location: "melbourne"
-  },
-  { 
-    id: 4, 
-    name: "Katy Ferry",
-    title: "Frontend Development Specialist",
-    location: "sydney"
-  }
-];
+const crews = getCrews();
 
 class App extends Component {
 
