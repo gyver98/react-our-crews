@@ -628,8 +628,7 @@ img {
   }
 
     
-  .c4 .crew-profile:before, 
-  .c8 .crew-profile:before, 
+  .c4 .crew-profile:before,
   .c11 .crew-profile:before, 
   .c12 .crew-profile:before,
   .c19 .crew-profile:before,
@@ -643,6 +642,7 @@ img {
     top: -20px;
     display: none;
   }
+
   @supports (display:grid) {
     .c4 .crew-profile:before, 
     .c8 .crew-profile:before, 
@@ -656,6 +656,7 @@ img {
       display: block;
     }  
   }    
+  
   .c4 .crew-profile, 
   .c8 .crew-profile, 
   .c11 .crew-profile, 
@@ -664,7 +665,7 @@ img {
   .c21 .crew-profile,
   .c22 .crew-profile,
   .c23 .crew-profile,
-  .c24 .crew-profile, {
+  .c24 .crew-profile {
     border-top-width: 20px;
     margin-top: -20px;
     height: calc(100% + 20px);

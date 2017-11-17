@@ -124,40 +124,40 @@ export function getCrews() {
     { 
       id: 16, 
       name: "Samuel Hemphill",
-      image: "adrian.baxter",
+      image: "samuel.hemphill",
       title: "Frontend Development Specialist",
       segment: "Business & Technology Integration",
       group: "fed"
     },
     { 
       id: 17, 
-      name: "Samuel Hemphill",
-      image: "adrian.baxter",
-      title: "Frontend Development Specialist",
-      segment: "Business & Technology Integration",
-      group: "fed"
+      name: "Andrew Barrie",
+      image: "andrew.barrie",
+      title: "Service & Interaction Design",
+      segment: "Design",
+      group: "design"
     },
     { 
       id: 18, 
-      name: "Samuel Hemphill",
-      image: "adrian.baxter",
-      title: "Frontend Development Specialist",
-      segment: "Business & Technology Integration",
-      group: "fed"
+      name: "Nandini Chikkaswamaiah",
+      image: "n.chikkaswamaiah",
+      title: "Digital Technology Developer Assoc Mgr",
+      segment: "Software Engineering",
+      group: "dev"
     },
     { 
       id: 19, 
-      name: "Samuel Hemphill",
-      image: "adrian.baxter",
-      title: "Frontend Development Specialist",
-      segment: "Business & Technology Integration",
-      group: "fed"
+      name: "Sabarish Chokkalingom",
+      image: "s.chokkalingom",
+      title: "Digital Technology Developer Team Lead",
+      segment: "Software Engineering",
+      group: "dev"
     },
     { 
       id: 20, 
-      name: "Samuel Hemphill",
+      name: "Adrian Baxter",
       image: "adrian.baxter",
-      title: "Frontend Development Specialist",
+      title: "Front End Development Manager",
       segment: "Business & Technology Integration",
       group: "fed"
     },
