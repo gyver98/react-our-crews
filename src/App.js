@@ -37,7 +37,8 @@ class App extends Component {
                   id={crew.id} 
                   name={crew.name} 
                   title={crew.title} 
-                  location={crew.location} />
+                  location={crew.location}
+                  group={crew.group} />
             })}
           </section>
         </main>

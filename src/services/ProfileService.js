@@ -6,28 +6,28 @@ export function getCrews() {
       name: "Sujan Kim",
       title: "Frontend Development Specialist",
       location: "melbourne",
-      group: "FED"
+      group: "fed"
     },
     { 
       id: 2, 
       name: "Harry Potter",
       title: "Frontend Development Specialist",
       location: "sydney",
-      group: "DEV"
+      group: "dev"
     },
     { 
       id: 3, 
       name: "Nick Nolan",
       title: "Frontend Development Specialist",
       location: "melbourne",
-      group: "FED"
+      group: "fed"
     },
     { 
       id: 4, 
       name: "Katy Ferry",
       title: "Frontend Development Specialist",
       location: "sydney",
-      group: "DEV"
+      group: "dev"
     }
   ]
 )

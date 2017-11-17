@@ -26,8 +26,8 @@ class FilterCrews extends Component {
     return (
       <ul className="filter-member">
         <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'all'} name='all' filterMember='' />
-        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'melbourne'} name='melbourne' filterMember='melbourne-active'/>
-        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'sydney'} name='sydney' filterMember='sydney-active'/>
+        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'fed'} name='fed' filterMember='fed-active'/>
+        <FilterButton handleItemClick={this._handleItemClick} active={activeItem === 'dev'} name='dev' filterMember='dev-active'/>
       </ul>
     )
   }

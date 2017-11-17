@@ -94,11 +94,11 @@ main {
   transition: .7s;
 }
 
-.grid-container[data-filterActive="melbourne-active"] [data-track="sydney"] {
+.grid-container[data-filterActive="fed-active"] [data-track="dev"] {
   opacity: .1;
   pointer-events: none;
 }
-.grid-container[data-filterActive="sydney-active"] [data-track="melbourne"] {
+.grid-container[data-filterActive="dev-active"] [data-track="fed"] {
   opacity: .1;
   pointer-events: none;
 }
