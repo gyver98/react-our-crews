@@ -155,59 +155,59 @@ export function getCrews() {
     },
     { 
       id: 20, 
-      name: "Adrian Baxter",
-      image: "adrian.baxter",
-      title: "Front End Development Manager",
+      name: "Changez Shaikhr",
+      image: "changez.shaikh",
+      title: "Front End Development Specialist",
       segment: "Business & Technology Integration",
       group: "fed"
     },
     { 
       id: 21, 
-      name: "Samuel Hemphill",
-      image: "adrian.baxter",
-      title: "Frontend Development Specialist",
-      segment: "Business & Technology Integration",
-      group: "fed"
+      name: "Chris Costuna",
+      image: "chris.costuna",
+      title: "Business Design",
+      segment: "Design",
+      group: "design"
     },
     { 
       id: 22, 
-      name: "Samuel Hemphill",
-      image: "adrian.baxter",
-      title: "Frontend Development Specialist",
-      segment: "Business & Technology Integration",
-      group: "fed"
+      name: "Madhu Dasari",
+      image: "madhu.c.dasari",
+      title: "Digital Technology Developer Team Lead",
+      segment: "Software Engineering",
+      group: "dev"
     },
     { 
       id: 23, 
-      name: "Samuel Hemphill",
-      image: "adrian.baxter",
-      title: "Frontend Development Specialist",
-      segment: "Business & Technology Integration",
-      group: "fed"
+      name: "Soumendu Ghara",
+      image: "soumendu.ghara",
+      title: "Digital Technology Developer Manager",
+      segment: "Software Engineering",
+      group: "dev"
     },
     { 
       id: 24, 
-      name: "Samuel Hemphill",
-      image: "adrian.baxter",
-      title: "Frontend Development Specialist",
+      name: "Bowen Li",
+      image: "bowen.d.li",
+      title: "Front End Development Associate Mgr",
       segment: "Business & Technology Integration",
       group: "fed"
     },
     { 
       id: 25, 
-      name: "Samuel Hemphill",
-      image: "adrian.baxter",
-      title: "Frontend Development Specialist",
-      segment: "Business & Technology Integration",
-      group: "fed"
+      name: "Sacha Jerrems",
+      image: "s.jerrems",
+      title: "Visual Design",
+      segment: "Design",
+      group: "design"
     },
     { 
       id: 26, 
-      name: "Samuel Hemphill",
-      image: "adrian.baxter",
-      title: "Frontend Development Specialist",
+      name: "Sarath Krishnan",
+      image: "sarath.krishnan",
+      title: "Digital Business Integration Sr Manager",
       segment: "Business & Technology Integration",
-      group: "fed"
+      group: "dev"
     },
   ]
 )
