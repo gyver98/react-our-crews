@@ -35,9 +35,9 @@ export function getCrews() {
     },
     { 
       id: 5, 
-      name: "Samuel Hemphill",
-      image: "samuel.hemphill",
-      title: "Frontend Development Specialist",
+      name: "Matthew Choi",
+      image: "matthew.choi",
+      title: "Front End Development Associate Mgr",
       segment: "Business & Technology Integration",
       group: "fed"
     },
@@ -102,6 +102,110 @@ export function getCrews() {
       name: "Breno Pittoli",
       image: "breno.pittoli",
       title: "Front End Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 14, 
+      name: "Alex Cameron",
+      image: "alexander.cameron",
+      title: "Visual Design",
+      segment: "Design",
+      group: "design"
+    },
+    { 
+      id: 15, 
+      name: "Sunil Chandrashekar",
+      image: "sunil.chandrashekar",
+      title: "Digital Business Integration Manager",
+      segment: "Business & Technology Integration",
+      group: "dev"
+    },
+    { 
+      id: 16, 
+      name: "Samuel Hemphill",
+      image: "adrian.baxter",
+      title: "Frontend Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 17, 
+      name: "Samuel Hemphill",
+      image: "adrian.baxter",
+      title: "Frontend Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 18, 
+      name: "Samuel Hemphill",
+      image: "adrian.baxter",
+      title: "Frontend Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 19, 
+      name: "Samuel Hemphill",
+      image: "adrian.baxter",
+      title: "Frontend Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 20, 
+      name: "Samuel Hemphill",
+      image: "adrian.baxter",
+      title: "Frontend Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 21, 
+      name: "Samuel Hemphill",
+      image: "adrian.baxter",
+      title: "Frontend Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 22, 
+      name: "Samuel Hemphill",
+      image: "adrian.baxter",
+      title: "Frontend Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 23, 
+      name: "Samuel Hemphill",
+      image: "adrian.baxter",
+      title: "Frontend Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 24, 
+      name: "Samuel Hemphill",
+      image: "adrian.baxter",
+      title: "Frontend Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 25, 
+      name: "Samuel Hemphill",
+      image: "adrian.baxter",
+      title: "Frontend Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 26, 
+      name: "Samuel Hemphill",
+      image: "adrian.baxter",
+      title: "Frontend Development Specialist",
       segment: "Business & Technology Integration",
       group: "fed"
     },
