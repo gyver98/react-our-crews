@@ -3,31 +3,35 @@ export function getCrews() {
   [
     { 
       id: 1, 
-      name: "Sujan Kim",
+      name: "Luke Peary",
+      image: "luke.peary",
       title: "Frontend Development Specialist",
-      location: "melbourne",
+      segment: "Business & Technology Integration",
       group: "fed"
     },
     { 
       id: 2, 
-      name: "Harry Potter",
-      title: "Frontend Development Specialist",
-      location: "sydney",
+      name: "Jamie Aitchison",
+      image: "jamie.aitchison",
+      title: "Digital Technology Developer Specialist",
+      segment: "Software Engineering",
       group: "dev"
     },
     { 
       id: 3, 
-      name: "Nick Nolan",
-      title: "Frontend Development Specialist",
-      location: "melbourne",
-      group: "fed"
+      name: "Suhel Anwar",
+      image: "suhel.anwar",
+      title: "Digital Business Integration Manager",
+      segment: "Business & Technology Integration",
+      group: "dev"
     },
     { 
       id: 4, 
-      name: "Katy Ferry",
+      name: "Samuel Hemphill",
+      image: "samuel.hemphill",
       title: "Frontend Development Specialist",
-      location: "sydney",
-      group: "dev"
+      segment: "Business & Technology Integration",
+      group: "fed"
     }
   ]
 )

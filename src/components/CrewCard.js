@@ -34,7 +34,7 @@ class CrewCard extends Component {
   render() {
     return ([
         <div className={`box crew-photo i${this.props.id}`} data-track={this.props.group}>
-          <img src={require(`../img/asset ${this.props.id + 1}.jpeg`)} alt="" />
+          <img src={require(`../img/${this.props.group}/${this.props.image}.jpg`)} alt="" />
         </div>,
         <div 
           onMouseEnter={this._addFlipClass} 
@@ -43,7 +43,7 @@ class CrewCard extends Component {
           <div className="crew-profile front">
             <h1 className="crew-profile__name">{this.props.name}</h1>
             <span className="crew-profile__title">{this.props.title}</span>
-            <p className="crew-profile__area">{this.props.location}</p>
+            <p className="crew-profile__area">{this.props.segment}</p>
           </div>
           <div className="crew-profile back">
             <h1 className="crew-profile__name">Guess who?</h1>

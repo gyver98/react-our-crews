@@ -32,14 +32,17 @@ class App extends Component {
         <main>
           <FilterCrews setFilterActive={this._setFilterActive}/>
           <section className="grid-container" data-filteractive={this.state.filterActive}>
-            {crews.map(crew => {
-              return <CrewCard
+            {crews.map(crew => 
+              <CrewCard
+                  key={crew.id}
                   id={crew.id} 
                   name={crew.name} 
+                  image={crew.image}
                   title={crew.title} 
-                  location={crew.location}
-                  group={crew.group} />
-            })}
+                  segment={crew.segment}
+                  group={crew.group} 
+              />
+            )}
           </section>
         </main>
       </div>    
