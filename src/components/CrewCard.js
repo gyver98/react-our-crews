@@ -32,18 +32,19 @@ class CrewCard extends Component {
   }
 
   render() {
+    const {id, group, image, name, title, segment} = this.props;
     return ([
-        <div className={`box crew-photo i${this.props.id}`} data-track={this.props.group}>
-          <img src={require(`../img/${this.props.group}/${this.props.image}.jpg`)} alt="" />
+        <div className={`box crew-photo i${id}`} data-track={group}>
+          <img src={require(`../img/${group}/${image}.jpg`)} alt="" />
         </div>,
         <div 
           onMouseEnter={this._addFlipClass} 
           onMouseLeave={this._removeFlipClass}
-          className={classNames(`box profile-hover c${this.props.id}`, {"flip": this.state.flipCard})} data-track={this.props.group}>
+          className={classNames(`box profile-hover c${id}`, {"flip": this.state.flipCard})} data-track={this.props.group}>
           <div className="crew-profile front">
-            <h1 className="crew-profile__name">{this.props.name}</h1>
-            <span className="crew-profile__title">{this.props.title}</span>
-            <p className="crew-profile__area">{this.props.segment}</p>
+            <h1 className="crew-profile__name">{name}</h1>
+            <span className="crew-profile__title">{title}</span>
+            <p className="crew-profile__area">{segment}</p>
           </div>
           <div className="crew-profile back">
             <h1 className="crew-profile__name">Guess who?</h1>
