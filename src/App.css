@@ -34,6 +34,10 @@ main {
   z-index: -1;
 }
 
+/* section {
+  background: url("./img/bck.png");
+} */
+
 .filter-member {
   list-style: none;
   padding-left: 0;
@@ -397,12 +401,14 @@ img {
   border-image: linear-gradient(45deg, #C0140A, #FFCF52) 1;
 }
 
-.crew-photo img {
+.crew-photo {
   filter: url(#duotone);
+  transition: 0.5s;
+  /* filter: url(#duotone);
   transform: translateZ(0);
   display: block;
   width: 100%;
-  object-fit: cover;
+  object-fit: cover; */
 }
 .crew-photo:hover {
   opacity: 0.8;
