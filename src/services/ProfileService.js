@@ -209,6 +209,54 @@ export function getCrews() {
       segment: "Software Engineering",
       group: "dev"
     },
+    { 
+      id: 27, 
+      name: "Alessandro Esposito",
+      image: "a.d.esposito",
+      title: "Digital Technology Developer Assoc Mgr",
+      segment: "Software Engineering",
+      group: "dev"
+    },
+    { 
+      id: 28, 
+      name: "Mark Jones",
+      image: "mark.p.jones",
+      title: "Service & Interaction Design",
+      segment: "Design",
+      group: "design"
+    },
+    { 
+      id: 29, 
+      name: "Carmen Chan",
+      image: "carmen.chan",
+      title: "Front End Development Specialist",
+      segment: "Business & Technology Integration",
+      group: "fed"
+    },
+    { 
+      id: 30, 
+      name: "Prue Jones",
+      image: "prue.jones",
+      title: "Visual Design",
+      segment: "Design",
+      group: "design"
+    },
+    { 
+      id: 31, 
+      name: "Melissa Jose",
+      image: "melissa.jose",
+      title: "Digital Technology Developer Specialist",
+      segment: "Software Engineering",
+      group: "dev"
+    },
+    { 
+      id: 32, 
+      name: "Enoch Tan",
+      image: "enoch.tan",
+      title: "Service & Interaction Design",
+      segment: "Design",
+      group: "design"
+    },
   ]
 )
 }
