@@ -139,9 +139,9 @@ export function getCrews() {
     },
     { 
       id: 18, 
-      name: "Nandini Chikkaswamaiah",
-      image: "n.chikkaswamaiah",
-      title: "Digital Technology Developer Assoc Mgr",
+      name: "Saurabh Thareja",
+      image: "s.thareja",
+      title: "Digital Technology Developer Team Lead",
       segment: "Software Engineering",
       group: "dev"
     },
