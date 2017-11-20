@@ -187,9 +187,9 @@ export function getCrews() {
     },
     { 
       id: 24, 
-      name: "Bowen Li",
-      image: "bowen.d.li",
-      title: "Front End Development Associate Mgr",
+      name: "Grant Chan",
+      image: "grant.chan",
+      title: "Front End Development Specialist",
       segment: "Business & Technology Integration",
       group: "fed"
     },
